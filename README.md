@@ -43,6 +43,4 @@ This will install all the dependencies and start the development server. This pr
 
 
 
-## Screenshot of Project
 
-![Screenshot of the entire page](/src/assets/natura_screenshot.jpeg)
