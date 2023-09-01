@@ -16,7 +16,7 @@ const ProgramsList = () => {
     <section className={styled.programs} id="classes">
       <Container>
         <article className={styled.programs__content}>
-          <Heading className="medium" heading="our programs" />
+          <Heading className="medium" heading="Nuestros Programas" />
           <p className="text">
           No importa cuál sea su nivel de condición física, 
           hay un programa en Natura que es perfecto para usted.

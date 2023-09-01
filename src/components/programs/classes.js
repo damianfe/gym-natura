@@ -10,7 +10,7 @@ export const classes = [
   {
     id: "2",
     image:
-      "https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "https://images.healthshots.com/healthshots/en/uploads/2022/05/11184715/Yoga-for-weight-loss.jpg",
     heading: "yoga",
     desc: "Relájate, descansa y mejora tu flexibilidad.",
   },

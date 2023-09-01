@@ -8,7 +8,7 @@ import Button from "../helpers/button/Button";
 const Hero = () => {
   const heading = (
     <>
-      LA EVOLUCIÓN DE <span> fitness</span> para <span>ellas</span>
+      La evolucion de <span> fitness</span> para <span>ellas</span>
     </>
   );
 

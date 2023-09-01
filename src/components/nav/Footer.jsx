@@ -18,37 +18,36 @@ const Footer = () => {
           <Heading className="small--dark" heading="Links" />
           <li>
             <Link smooth to="#home">
-              Home
+              Inicio
             </Link>
           </li>
 
           <li>
             <Link smooth to="#about">
-              About
+              Acerca de
             </Link>
           </li>
 
           <li>
             <Link smooth to="#programs">
-              Programs
+              Programas
             </Link>
           </li>
 
           <li>
             <Link smooth to="#facilities">
-              Facilities
+              Instalaciones
             </Link>
           </li>
 
           <li>
             <Link smooth to="#locations">
-              Locations
+              Locales
             </Link>
           </li>
         </ul>
-
         <article>
-          <Heading className="small--dark" heading="get in touch" />
+          <Heading className="small--dark" heading="Contactanos" />
           <ul className={styled.footer__contact}>
             <div className={styled["footer__contact--info"]}>
               <h3>Email</h3>
@@ -64,7 +63,7 @@ const Footer = () => {
             </div>
 
             <div className={styled["footer__contact--info"]}>
-              <h3>Phone</h3>
+              <h3>teléfonos</h3>
               <li>
                 <p>Maddison Garden</p>
                 <p>1-547-697-9236</p>
@@ -79,7 +78,7 @@ const Footer = () => {
         </article>
 
         <div className={styled.footer__icons}>
-          <Heading className="small--dark" heading="social media" />
+          <Heading className="small--dark" heading="Redes Sociales" />
           <div className={styled["footer__icons--icons"]}>
             <FaInstagramSquare size={35} color="var(--secondary)" />
             <FaFacebookSquare size={35} color="var(--secondary)" />

@@ -15,7 +15,7 @@ const Locations = () => {
     <section className={styled.locations} id="locations">
       <Container>
         <article className={styled.locations__content}>
-          <Heading className="medium--dark" heading="be part of the elite" />
+          <Heading className="medium--dark" heading="ser parte de la elite" />
           <p className="text--dark">
             Ya sea que recién estés comenzando tu viaje de fitness o seas un
             profesional experimentado, tenemos algo para todos.

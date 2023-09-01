@@ -8,7 +8,7 @@ import exercise from "../../assets/exercise.png";
 const Join = () => {
   const heading = (
     <>
-      convenient. <span>safe.</span> affordable.
+      Conveniente. <span>Seguro.</span> Accesible.
     </>
   );
 
