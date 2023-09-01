@@ -63,7 +63,7 @@ const Navbar = () => {
 
           <li>
             <Link smooth to="#locations">
-              Locaciones
+              Locales
             </Link>
           </li>
         </ul>

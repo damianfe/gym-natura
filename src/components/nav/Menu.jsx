@@ -51,7 +51,7 @@ const Menu = ({ setIsOpen }) => {
 
           <li>
             <Link smooth to="#locations">
-              Locaciones
+              Locales
             </Link>
           </li>
         </ul>
