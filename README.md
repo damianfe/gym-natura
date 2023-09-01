@@ -1,6 +1,6 @@
 # Natura | For The Woman Who Wants It All
 
-[View Live Site](https://gym-natura.vercel.app/)
+[View Live Site](https://gym-natura.netlify.app/)
 
 Natura is a women-only gym that provides a safe, supportive environment for women of all shapes, sizes, and fitness levels. Their goal is to help women feel confident and comfortable in their own skin, and to encourage them to lead healthy, active lifestyles.
 
