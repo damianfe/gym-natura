@@ -2,7 +2,7 @@
   "name": "natura",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
+  "type": "module", 
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -19,6 +19,30 @@
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
     "@vitejs/plugin-react": "^2.1.0",
+    "typescript": "^5.3.3",
     "vite": "^3.1.0"
+  },
+  "browserslist": [ 
+    "last 1 chrome version",
+    "last 1 firefox version",
+    "last 1 safari version"
+  ],
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "stylelint": {
+    "extends": ["stylelint-config-standard"],
+    "rules": {
+      
+    }
+  },
+  "prettier": {
+    "singleQuote": true,
+    "semi": false,
+    "tabWidth": 2
+    
   }
 }
