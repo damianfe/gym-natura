@@ -1,0 +1,10 @@
+/* styles/index.css */
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Importa tu archivo app.css después de Tailwind CSS */
+@import '../App.css';
+
+/* Tu código adicional va aquí */

@@ -1,8 +1,19 @@
+// Item.tsx
 import React from "react";
-import styled from "./Item.module.css";
+import "./Item.module.css";
 import Heading from "../heading/Heading";
 
-const Item = (props) => {
+interface ItemProps {
+  item: {
+    image: string;
+    heading: string;
+    desc: string;
+  };
+  theme: "light" | "dark";
+  className: string;
+}
+
+const Item: React.FC<ItemProps> = (props) => {
   const { image, heading, desc } = props.item;
 
   // classNames to be applied based on the theme
@@ -10,12 +21,12 @@ const Item = (props) => {
   const descClassName = props.theme === "light" ? "text" : "text--dark";
 
   return (
-    <article className={styled.item}>
-      <figure className={styled[props.className]}>
+    <article className={props.className}>
+      <figure>
         <img src={image} alt={heading} />
       </figure>
 
-      <div className={styled.item__info}>
+      <div className="item__info">
         <Heading className={headingClassName} heading={heading} />
         <p className={descClassName}>{desc}</p>
       </div>
