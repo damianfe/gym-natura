@@ -7,7 +7,7 @@ import { gymLocations } from "./gymLocations";
 
 const Locations = () => {
   // map through the gymLocations array and render a Item component for each location
-  const locations = gymLocations.map((location) => {
+  const locations = gymLocations.map((location: { id: any; }) => {
     return <Item key={location.id} item={location} className="location" />;
   });
 

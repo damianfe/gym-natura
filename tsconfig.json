@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "lib": ["dom", "es2015", "es2017"],
+    "jsx": "react",
+    "strict": true,
+    "module": "commonjs",
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": "./src",
+    "paths": {
+      "*": ["types/*"],
+      "typeRoots": ["./node_modules/@types", "./src/types"]
+    },
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "inlineSourceMap": true,
+    "outDir": "./dist",
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "allowUnusedLabels": true,
+    "allowUnreachableCode": true
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.jsx"
+  ]
+}
