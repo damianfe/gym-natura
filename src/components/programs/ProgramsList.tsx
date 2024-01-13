@@ -6,7 +6,7 @@ import { classes } from "./classes";
 import Item from "../helpers/item/Item";
 
 const ProgramsList = () => {
-  const programs = classes.map((program) => {
+  const programs = classes.map((program: { id: any; }) => {
     return (
       <Item key={program.id} item={program} className="program" theme="light" />
     );
